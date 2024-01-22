@@ -72,6 +72,9 @@ class SnakeFOV:
         
         return coords
         
+class Snake:
+    SPAWN = np.array([0, 0])
+    
 
 class SnakeGame:
     GAME_RUNNING = True
